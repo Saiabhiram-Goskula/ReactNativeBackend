@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181524225773",
+    "project_id": "ssmbotp-36464",
+    "storage_bucket": "ssmbotp-36464.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181524225773:android:ffd079586fddfa914876e4",
+        "android_client_info": {
+          "package_name": "com.ssmb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_o9qTpJ0Od1VTz5YXFEY7NpXPst5dcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
