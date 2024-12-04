@@ -280,7 +280,7 @@ const SoundScreen = () => {
     });
 
     try {
-      const response = await axios.post('http://192.168.137.1:5000/predict', formData, {
+      const response = await axios.post('http://10.0.2.2:5000/predict_audio', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setPrediction(response.data.prediction);

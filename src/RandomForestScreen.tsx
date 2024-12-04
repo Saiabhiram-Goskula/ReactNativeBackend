@@ -11,7 +11,7 @@ const RandomForestScreen = () => {
 
   const handlePredict = async () => {
     try {
-      const response = await fetch('http:192.168.137.1:5000/predict_random_forest', {
+      const response = await fetch('http:10.0.2.2:5000/predict_random_forest', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ station, year, month })
